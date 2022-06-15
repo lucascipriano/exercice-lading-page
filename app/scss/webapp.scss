@@ -1,0 +1,25 @@
+.webapp{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.svg_webapp{
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media(min-width: 768px){
+  .svg_webapp{
+    width: 600px;
+    height: 600px;
+  }
+}
+
+@media(min-width: 1024px){
+  .svg_webapp{
+    width: 800px;
+    height: 800px;
+  }
+}

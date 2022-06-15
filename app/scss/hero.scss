@@ -1,0 +1,73 @@
+.hero{
+  position: relative;
+  margin-top: 200px;
+  height: 100%;
+
+  text-align: center;
+  color: white;
+
+  .text{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  h1{
+    font-size: 40px;
+    z-index: 4;
+  }
+  h2{
+    font-size: 35px;
+    z-index: 4;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    line-height: 60px;
+  }
+}
+
+.svg-container{
+  width: 350px;
+  height: 300px;
+  svg{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: -15%;
+    left: 10px;
+    z-index: 1;
+  }
+}
+
+@media(min-width: 768px){
+  .text{
+    h1{
+    font-size: 50px;
+    }
+
+    h2{
+    font-size: 40px;
+    }
+  }
+
+  .svg-container svg{
+    left: 20px;
+  }
+}
+@media(min-width: 1024px){
+  .text{
+    h1{
+    font-size: 70px;
+    }
+
+    h2{
+    font-size: 50px;
+    }
+  }
+
+  .svg-container svg{
+    left: 20px;
+
+  }
+}
